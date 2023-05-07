@@ -1,0 +1,29 @@
+.hero-section{
+    background-color: #fcf0e4;
+}
+
+.bg-success-dark{
+    background-color: rgb(13, 53, 40);
+}
+
+.text-section p{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(13, 53, 40);;
+}
+.hero-image{
+    height: 300px;
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero{
+        display: block !important;
+        justify-content: center;
+    }
+    .hero-image{
+        height: 150px;
+        width: 200px;
+    }
+}
